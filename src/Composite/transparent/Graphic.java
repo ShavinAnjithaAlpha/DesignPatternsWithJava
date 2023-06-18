@@ -1,7 +1,9 @@
 package Composite.transparent;
+
 public interface Graphic {
 
     void draw(); // draw the graphic in the screen
+
     // composite methods
     public default Graphic add(Graphic gr) {
         return this;

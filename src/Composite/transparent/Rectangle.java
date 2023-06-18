@@ -1,6 +1,6 @@
 package Composite.transparent;
 
-public class Rectangle implements Graphic{
+public class Rectangle implements Graphic {
     @Override
     public void draw() {
         // draw logic

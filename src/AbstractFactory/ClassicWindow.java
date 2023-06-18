@@ -1,6 +1,6 @@
 package AbstractFactory;
 
-public class ClassicWindow implements Window{
+public class ClassicWindow implements Window {
 
 
     @Override

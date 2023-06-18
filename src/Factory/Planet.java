@@ -1,6 +1,6 @@
 package Factory;
 
-public class Planet implements GameObject{
+public class Planet implements GameObject {
     @Override
     public void draw() {
 

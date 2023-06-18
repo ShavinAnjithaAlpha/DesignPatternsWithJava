@@ -1,6 +1,6 @@
 package Composite.transparent;
 
-public class Triangle implements Graphic{
+public class Triangle implements Graphic {
     @Override
     public void draw() {
         // draw logic

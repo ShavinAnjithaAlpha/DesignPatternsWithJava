@@ -2,7 +2,7 @@ package prototype;
 
 public class SoldierDemo {
 
-    public static void main(String[] args) throws CloneNotSupportedException{
+    public static void main(String[] args) throws CloneNotSupportedException {
         // create a Sniper
         Sniper generalSniper = new Sniper("General Sniper");
 

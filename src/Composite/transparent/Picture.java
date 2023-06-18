@@ -2,9 +2,10 @@ package Composite.transparent;
 
 import java.util.LinkedList;
 
-public class Picture implements Graphic{
+public class Picture implements Graphic {
 
     private final LinkedList<Graphic> graphics = new LinkedList<>();
+
     @Override
     public void draw() {
         graphics.forEach(Graphic::draw);

@@ -2,9 +2,10 @@ package Composite.safety;
 
 import java.util.LinkedList;
 
-public class Image implements Graphic{
+public class Image implements Graphic {
 
     private final LinkedList<Graphic> graphics = new LinkedList<>();
+
     @Override
     public void draw() {
         graphics.forEach(Graphic::draw);

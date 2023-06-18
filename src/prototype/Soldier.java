@@ -1,16 +1,16 @@
 package prototype;
 
-public abstract class Soldier implements Cloneable{
+public abstract class Soldier implements Cloneable {
 
     public String type;
     public int healthScore, performanceScore;
 
-    public void setType(String type) {
-        this.type = type;
-    }
-
     public String getType() {
         return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
 
     public Soldier clone() throws CloneNotSupportedException {

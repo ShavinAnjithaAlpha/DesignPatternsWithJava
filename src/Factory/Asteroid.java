@@ -9,6 +9,7 @@ public class Asteroid implements GameObject {
         this.x = x;
         this.y = y;
     }
+
     @Override
     public void draw() {
         // game logic
