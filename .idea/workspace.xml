@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="570408a6-1534-422e-93c1-065614190061" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPatterns.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/ClassicButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/ClassicUIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/ClassicWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/MetalButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/MetalUIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/MetalWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/UIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/AdapterText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/Graphics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/TextDrawer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bridge/AWindowImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bridge/BWindowImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bridge/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bridge/IconWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bridge/TransientWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bridge/Window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bridge/WindowImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Builder/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Builder/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Builder/DoubleFloorHouseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Builder/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Builder/HouseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Builder/SingleFloorHouseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Composite/safety/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Composite/safety/Graphic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Composite/safety/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Composite/safety/Oval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Composite/safety/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Composite/transparent/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Composite/transparent/Graphic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Composite/transparent/Oval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Composite/transparent/Picture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Composite/transparent/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Composite/transparent/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Drink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/DrinkDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Honey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Lime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Rum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Spices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Whiskey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Wine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/AlienGameObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/AlienShip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Asteroid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/GameObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/GameObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/ModerateFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/Planet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/RandomGameObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Singleton/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Singleton/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prototype/Ghost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prototype/Sniper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prototype/Soldier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prototype/SoldierDemo.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2R6QJpr0IT8XH7dvS77p0cuyRnm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/Workspace/DesignPatterns/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\Workspace\DesignPatterns\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Decorator.Demo">
+    <configuration name="Composite.safety.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Composite.safety.Demo" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Composite.safety.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Decorator.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Decorator.Demo" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Composite.transparent.Demo" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Composite.transparent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Factory.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Factory.Demo" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Singleton.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Singleton.Demo" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Decorator.Demo" />
+        <item itemvalue="Application.Composite.safety.Demo" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Factory.Demo" />
+        <item itemvalue="Application.Singleton.Demo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="570408a6-1534-422e-93c1-065614190061" name="Changes" comment="" />
+      <created>1686567985531</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686567985531</updated>
+      <workItem from="1686567986717" duration="7986000" />
+      <workItem from="1686925156967" duration="7666000" />
+      <workItem from="1687018585568" duration="5411000" />
+      <workItem from="1687069559677" duration="27000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
