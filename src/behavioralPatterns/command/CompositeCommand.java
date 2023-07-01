@@ -2,7 +2,6 @@ package behavioralPatterns.command;
 
 import behavioralPatterns.command.UI.Command;
 
-import java.sql.Array;
 import java.util.ArrayList;
 import java.util.List;
 
