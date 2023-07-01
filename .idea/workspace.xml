@@ -4,77 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="570408a6-1534-422e-93c1-065614190061" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPatterns.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/ClassicButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/ClassicUIFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/ClassicWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/MetalButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/MetalUIFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/MetalWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/UIFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Window.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/AdapterText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/Graphics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/TextDrawer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bridge/AWindowImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bridge/BWindowImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bridge/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bridge/IconWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bridge/TransientWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bridge/Window.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bridge/WindowImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder/DoubleFloorHouseBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder/HouseBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder/SingleFloorHouseBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Composite/safety/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Composite/safety/Graphic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Composite/safety/Image.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Composite/safety/Oval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Composite/safety/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Composite/transparent/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Composite/transparent/Graphic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Composite/transparent/Oval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Composite/transparent/Picture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Composite/transparent/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Composite/transparent/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Drink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/DrinkDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Honey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Lime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Rum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Spices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Whiskey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/Wine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/AlienGameObjectFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/AlienShip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Asteroid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/GameObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/GameObjectFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/ModerateFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/Planet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/RandomGameObjectFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Singleton/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Singleton/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prototype/Ghost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prototype/Sniper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prototype/Soldier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prototype/SoldierDemo.java" afterDir="false" />
+    <list default="true" id="570408a6-1534-422e-93c1-065614190061" name="Changes" comment="Create a package for creational pattern designs and move all of the creational patterns to the new package">
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/chainOfResponsibility/Analyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/chainOfResponsibility/Authenticator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/chainOfResponsibility/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/chainOfResponsibility/Encrypter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/chainOfResponsibility/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/chainOfResponsibility/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/chainOfResponsibility/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/chainOfResponsibility/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/command/AddFrameCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/command/CompositeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/command/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/command/FrameDrawer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/command/ResizeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/command/SaturationUpdateCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/command/UI/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/command/UI/CheckBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/command/UI/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +39,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2R6QJpr0IT8XH7dvS77p0cuyRnm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -121,7 +72,7 @@
       <recent name="D:\Projects\Workspace\DesignPatterns\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Decorator.Demo">
+  <component name="RunManager" selected="Application.behavioralPatterns.command.Demo">
     <configuration name="Composite.safety.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Composite.safety.Demo" />
       <module name="DesignPatterns" />
@@ -161,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Factory.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Factory.Demo" />
+    <configuration name="behavioralPatterns.chainOfResponsibility.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioralPatterns.chainOfResponsibility.Demo" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creationalPatterns.Factory.*" />
+          <option name="PATTERN" value="behavioralPatterns.chainOfResponsibility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Singleton.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Singleton.Demo" />
+    <configuration name="behavioralPatterns.command.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioralPatterns.command.Demo" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creationalPatterns.Singleton.*" />
+          <option name="PATTERN" value="behavioralPatterns.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.behavioralPatterns.command.Demo" />
+        <item itemvalue="Application.behavioralPatterns.chainOfResponsibility.Demo" />
         <item itemvalue="Application.Decorator.Demo" />
         <item itemvalue="Application.Composite.safety.Demo" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.Factory.Demo" />
-        <item itemvalue="Application.Singleton.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -209,10 +160,34 @@
       <workItem from="1686925156967" duration="7666000" />
       <workItem from="1687018585568" duration="5411000" />
       <workItem from="1687069559677" duration="27000" />
+      <workItem from="1688209637421" duration="3265000" />
     </task>
+    <task id="LOCAL-00001" summary="Create a package for creational pattern designs and move all of the creational patterns to the new package">
+      <created>1688210071543</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688210071543</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create a package for creational pattern designs and move all of the creational patterns to the new package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create a package for creational pattern designs and move all of the creational patterns to the new package" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/behavioralPatterns/chainOfResponsibility/Demo.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
