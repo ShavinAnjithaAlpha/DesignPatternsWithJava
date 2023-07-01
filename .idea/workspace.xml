@@ -166,7 +166,7 @@
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Factory.*" />
+          <option name="PATTERN" value="creationalPatterns.Factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,7 +179,7 @@
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Singleton.*" />
+          <option name="PATTERN" value="creationalPatterns.Singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

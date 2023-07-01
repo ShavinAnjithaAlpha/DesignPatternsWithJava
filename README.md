@@ -2,10 +2,10 @@
 This respository contains various practical examples of how design patterns implemented in Java
 
 1. Creational Patterns
-  - [x] Singleton Pattern
-  - [x] Factory Pattern
-  - [x] Abstarct Factory Pattern
-  - [x] Builder Pattern
+  - [x] creationalPatterns.Singleton Pattern
+  - [x] creationalPatterns.Factory Pattern
+  - [x] Abstarct creationalPatterns.Factory Pattern
+  - [x] creationalPatterns.Builder Pattern
   - [x] Prototype Pattern
   
 2. Structural Patterns
