@@ -10,6 +10,7 @@ public class Canvas {
     public void mouseDown() {
         currentTool.mouseDown();
     }
+
     public Tool getCurrentTool() {
         return currentTool;
     }

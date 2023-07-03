@@ -4,27 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="570408a6-1534-422e-93c1-065614190061" name="Changes" comment="create the memento, mediator, and the command design patterns">
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/observer/Chart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/observer/DataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/observer/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/observer/Observable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/observer/SpreadSheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/state/BrushTool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/state/Canvas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/state/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/state/SelectionTool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/state/Tool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/strategy/BWFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/strategy/Compressor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/strategy/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/strategy/Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/strategy/ImageLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/strategy/JPEGCompressor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/strategy/PNGCompressor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/strategy/VividFilter.java" afterDir="false" />
+    <list default="true" id="570408a6-1534-422e-93c1-065614190061" name="Changes" comment="create state and strategy design patterns">
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/template/AnimeImageTuner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/template/BWImageTuner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/template/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/template/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/template/ImageTuner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/visitor/AnchorNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/visitor/HTMLNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/visitor/HeadingNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/visitor/HighlightSyntaxOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/visitor/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/visitor/PlainTextModeOperation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/behavioralPatterns/state/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioralPatterns/state/Canvas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,55 +46,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projects/Workspace/DesignPatterns/src&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/OneDrive-University/OneDrive - University of Moratuwa/University Academics/Semester 2/Program Construction/Projects/JavaIO",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\Workspace\DesignPatterns\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.behavioralPatterns.strategy.Demo">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioralPatterns.mediator.Demo" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="behavioralPatterns.mediator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="behavioralPatterns.memento.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioralPatterns.memento.Demo" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="behavioralPatterns.memento.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.behavioralPatterns.visitor.Demo">
     <configuration name="behavioralPatterns.observer.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="behavioralPatterns.observer.Demo" />
       <module name="DesignPatterns" />
@@ -141,13 +108,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="behavioralPatterns.template.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioralPatterns.template.Demo" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behavioralPatterns.template.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="behavioralPatterns.visitor.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioralPatterns.visitor.Demo" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behavioralPatterns.visitor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.behavioralPatterns.visitor.Demo" />
+        <item itemvalue="Application.behavioralPatterns.template.Demo" />
         <item itemvalue="Application.behavioralPatterns.strategy.Demo" />
-        <item itemvalue="Application.behavioralPatterns.state.Demo" />
         <item itemvalue="Application.behavioralPatterns.observer.Demo" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.behavioralPatterns.memento.Demo" />
+        <item itemvalue="Application.behavioralPatterns.state.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +161,16 @@
       <workItem from="1688239034517" duration="11000" />
       <workItem from="1688274011766" duration="4051000" />
       <workItem from="1688356173550" duration="2257000" />
-      <workItem from="1688366554073" duration="488000" />
+      <workItem from="1688366554073" duration="937000" />
+      <workItem from="1688373952682" duration="2087000" />
+      <workItem from="1688388207744" duration="58000" />
+      <workItem from="1688388304442" duration="17000" />
+      <workItem from="1688388496153" duration="6000" />
+      <workItem from="1688393497598" duration="27000" />
+      <workItem from="1688407477996" duration="86000" />
+      <workItem from="1688407588110" duration="39000" />
+      <workItem from="1688407648383" duration="770000" />
+      <workItem from="1688408454211" duration="2417000" />
     </task>
     <task id="LOCAL-00001" summary="Create a package for creational pattern designs and move all of the creational patterns to the new package">
       <created>1688210071543</created>
@@ -191,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688237929455</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="create state and strategy design patterns">
+      <created>1688367104836</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688367104836</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +210,8 @@
     <MESSAGE value="Create a package for creational pattern designs and move all of the creational patterns to the new package" />
     <MESSAGE value="create chain of responsibility and command pattern" />
     <MESSAGE value="create the memento, mediator, and the command design patterns" />
-    <option name="LAST_COMMIT_MESSAGE" value="create the memento, mediator, and the command design patterns" />
+    <MESSAGE value="create state and strategy design patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="create state and strategy design patterns" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -213,5 +223,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
