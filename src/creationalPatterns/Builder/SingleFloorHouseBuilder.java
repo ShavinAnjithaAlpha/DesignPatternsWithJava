@@ -3,7 +3,7 @@ package creationalPatterns.Builder;
 public class SingleFloorHouseBuilder implements HouseBuilder {
 
     private House house = null;
-    private String color;
+    private final String color;
 
     public SingleFloorHouseBuilder(String color) {
         this.house = new House(0, 0, 0, null, null);

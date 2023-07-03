@@ -1,6 +1,6 @@
 package behavioralPatterns.visitor;
 
-public class HighlightSyntaxOperation implements Operation{
+public class HighlightSyntaxOperation implements Operation {
     @Override
     public void apply(HeadingNode node) {
         System.out.println("highlight the heading node");

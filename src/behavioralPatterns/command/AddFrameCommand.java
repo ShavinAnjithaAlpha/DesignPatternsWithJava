@@ -4,7 +4,7 @@ import behavioralPatterns.command.UI.Command;
 
 public class AddFrameCommand implements Command {
 
-    private FrameDrawer drawer;
+    private final FrameDrawer drawer;
 
     public AddFrameCommand(int frameCode) {
         this.drawer = new FrameDrawer(frameCode);

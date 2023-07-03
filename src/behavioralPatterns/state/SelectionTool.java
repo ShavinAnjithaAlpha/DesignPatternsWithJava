@@ -1,6 +1,6 @@
 package behavioralPatterns.state;
 
-public class SelectionTool implements Tool{
+public class SelectionTool implements Tool {
     @Override
     public void mouseUp() {
         System.out.println("show the selection cursor");

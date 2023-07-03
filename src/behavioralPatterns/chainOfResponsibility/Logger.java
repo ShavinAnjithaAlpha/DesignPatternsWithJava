@@ -7,8 +7,8 @@ public class Logger extends Handler {
 
     @Override
     public boolean doHandle(Request request) {
-        System.out.println(String.format("Logged: request from %s -> itemCode: %d, Count: %d%n",
-                request.getUserName(), request.getItemCode(), request.getCount()));
+        System.out.printf("Logged: request from %s -> itemCode: %d, Count: %d%n%n",
+                request.getUserName(), request.getItemCode(), request.getCount());
         return false;
     }
 }

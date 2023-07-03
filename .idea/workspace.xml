@@ -4,20 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="570408a6-1534-422e-93c1-065614190061" name="Changes" comment="create state and strategy design patterns">
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/template/AnimeImageTuner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/template/BWImageTuner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/template/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/template/Image.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/template/ImageTuner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/visitor/AnchorNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/visitor/HTMLNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/visitor/HeadingNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/visitor/HighlightSyntaxOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/visitor/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/visitor/PlainTextModeOperation.java" afterDir="false" />
+    <list default="true" id="570408a6-1534-422e-93c1-065614190061" name="Changes" comment="create the template and visitor design pattern">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/behavioralPatterns/state/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioralPatterns/state/Canvas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Adapter/AdapterText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Adapter/AdapterText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Adapter/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Adapter/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Adapter/Graphics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Adapter/Graphics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Adapter/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Adapter/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Adapter/TextDrawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Adapter/TextDrawer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bridge/AWindowImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Bridge/AWindowImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bridge/BWindowImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Bridge/BWindowImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bridge/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Bridge/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bridge/IconWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Bridge/IconWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bridge/TransientWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Bridge/TransientWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bridge/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Bridge/Window.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bridge/WindowImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Bridge/WindowImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Composite/safety/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Composite/safety/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Composite/safety/Graphic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Composite/safety/Graphic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Composite/safety/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Composite/safety/Image.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Composite/safety/Oval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Composite/safety/Oval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Composite/safety/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Composite/safety/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Composite/transparent/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Composite/transparent/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Composite/transparent/Graphic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Composite/transparent/Graphic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Composite/transparent/Oval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Composite/transparent/Oval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Composite/transparent/Picture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Composite/transparent/Picture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Composite/transparent/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Composite/transparent/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Composite/transparent/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Composite/transparent/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Decorator/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/Drink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Decorator/Drink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/DrinkDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Decorator/DrinkDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/Honey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Decorator/Honey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/Lime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Decorator/Lime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/Rum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Decorator/Rum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/Spices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Decorator/Spices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/Whiskey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Decorator/Whiskey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decorator/Wine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Decorator/Wine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +191,7 @@
       <workItem from="1688407477996" duration="86000" />
       <workItem from="1688407588110" duration="39000" />
       <workItem from="1688407648383" duration="770000" />
-      <workItem from="1688408454211" duration="2417000" />
+      <workItem from="1688408454211" duration="3000000" />
     </task>
     <task id="LOCAL-00001" summary="Create a package for creational pattern designs and move all of the creational patterns to the new package">
       <created>1688210071543</created>
@@ -200,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688367104836</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="create the template and visitor design pattern">
+      <created>1688412549828</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688412549828</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +239,8 @@
     <MESSAGE value="create chain of responsibility and command pattern" />
     <MESSAGE value="create the memento, mediator, and the command design patterns" />
     <MESSAGE value="create state and strategy design patterns" />
-    <option name="LAST_COMMIT_MESSAGE" value="create state and strategy design patterns" />
+    <MESSAGE value="create the template and visitor design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="create the template and visitor design pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

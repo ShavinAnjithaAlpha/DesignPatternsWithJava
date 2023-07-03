@@ -1,9 +1,9 @@
 package behavioralPatterns.mediator;
 
 public class CustomDialogBox extends DialogBox {
-    private ListView listView = new ListView(this);
-    private Button button = new Button(this, "");
-    private TextField textField = new TextField(this);
+    private final ListView listView = new ListView(this);
+    private final Button button = new Button(this, "");
+    private final TextField textField = new TextField(this);
 
     public ListView getListView() {
         return listView;
@@ -31,12 +31,8 @@ public class CustomDialogBox extends DialogBox {
         button.setEnabled(true);
     }
 
-   private void contentChanged() {
+    private void contentChanged() {
         String content = textField.getContentText();
-        if (content == null || content.isEmpty()) {
-            button.setEnabled(false);
-        } else {
-            button.setEnabled(true);
-        }
-   }
+        button.setEnabled(content != null && !content.isEmpty());
+    }
 }

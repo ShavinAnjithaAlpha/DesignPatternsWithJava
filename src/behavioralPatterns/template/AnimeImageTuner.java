@@ -1,6 +1,6 @@
 package behavioralPatterns.template;
 
-public class AnimeImageTuner extends ImageTuner{
+public class AnimeImageTuner extends ImageTuner {
     @Override
     protected void applyFilter() {
         System.out.println("apply cartoon filter");

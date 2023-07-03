@@ -18,6 +18,8 @@ public abstract class ImageTuner {
     }
 
     protected abstract void applyFilter();
+
     protected abstract void compressImage();
+
     protected abstract void addTransforms();
 }
