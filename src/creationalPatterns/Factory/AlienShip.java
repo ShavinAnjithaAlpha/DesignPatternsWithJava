@@ -2,9 +2,9 @@ package creationalPatterns.Factory;
 
 public class AlienShip implements GameObject {
 
-    private int x;
-    private int y;
-    private int level;
+    private final int x;
+    private final int y;
+    private final int level;
 
     public AlienShip(int x, int y, int level) {
         this.x = x;

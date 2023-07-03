@@ -25,7 +25,8 @@ public class BrowserHistory {
     // create a ListIterator class
     public class ListIterator implements Iterator {
         private int currentIndex;
-        private BrowserHistory browserHistory;
+        private final BrowserHistory browserHistory;
+
         public ListIterator(BrowserHistory browserHistory) {
             this.browserHistory = browserHistory;
             this.currentIndex = 0;

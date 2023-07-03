@@ -9,6 +9,6 @@ public class Ghost extends Soldier {
 
     @Override
     public Soldier clone() throws CloneNotSupportedException {
-        return (Ghost) super.clone();
+        return super.clone();
     }
 }

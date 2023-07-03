@@ -4,7 +4,7 @@ import java.security.SecureRandom;
 
 public class AlienGameObjectFactory implements GameObjectFactory {
 
-    private static SecureRandom random = new SecureRandom();
+    private static final SecureRandom random = new SecureRandom();
 
     @Override
     public GameObject getObject(int n) {

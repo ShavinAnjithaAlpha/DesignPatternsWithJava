@@ -9,7 +9,7 @@ public class Sniper extends Soldier {
 
     @Override
     public Soldier clone() throws CloneNotSupportedException {
-        return (Sniper) super.clone();
+        return super.clone();
     }
 
 }

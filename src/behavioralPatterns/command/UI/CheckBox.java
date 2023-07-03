@@ -4,7 +4,7 @@ public class CheckBox {
 
     private String label;
     private boolean currentState;
-    private Command command;
+    private final Command command;
 
 
     public CheckBox(Command command) {

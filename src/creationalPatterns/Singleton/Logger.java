@@ -3,7 +3,7 @@ package creationalPatterns.Singleton;
 public class Logger {
 
     private static Logger soleInstance;
-    private String fileName;
+    private final String fileName;
 
     private Logger(String fileName) {
         this.fileName = fileName;

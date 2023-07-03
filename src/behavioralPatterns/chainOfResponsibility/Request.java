@@ -4,8 +4,8 @@ public class Request {
 
     private final String userName;
     private final String passWord;
-    private int itemCode;
     private final int count;
+    private int itemCode;
 
     public Request(String userName, String passWord, int itemCode, int count) {
         this.userName = userName;
@@ -26,11 +26,11 @@ public class Request {
         return itemCode;
     }
 
-    public int getCount() {
-        return count;
-    }
-
     public void setItemCode(int itemCode) {
         this.itemCode = itemCode;
+    }
+
+    public int getCount() {
+        return count;
     }
 }

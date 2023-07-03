@@ -4,7 +4,7 @@ import behavioralPatterns.command.UI.Command;
 
 public class SaturationUpdateCommand implements Command {
 
-    private int saturationLevel;
+    private final int saturationLevel;
 
     public SaturationUpdateCommand(int saturationLevel) {
         this.saturationLevel = saturationLevel;

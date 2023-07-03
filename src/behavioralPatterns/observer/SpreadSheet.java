@@ -2,7 +2,7 @@ package behavioralPatterns.observer;
 
 public class SpreadSheet implements Observer {
     private String sheetName;
-    private DataSource dataSource;
+    private final DataSource dataSource;
 
     public SpreadSheet(String sheetName, DataSource dataSource) {
         this.sheetName = sheetName;

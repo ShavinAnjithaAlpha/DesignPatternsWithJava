@@ -2,7 +2,7 @@ package behavioralPatterns.observer;
 
 public class Chart implements Observer {
     private String chartName;
-    private DataSource dataSource;
+    private final DataSource dataSource;
 
     public Chart(String chartName, DataSource dataSource) {
         this.chartName = chartName;

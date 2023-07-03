@@ -1,7 +1,5 @@
 package behavioralPatterns.mediator;
 
-import java.awt.*;
-
 public class TextField extends Widget {
 
     private String contentText;
