@@ -4,41 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="570408a6-1534-422e-93c1-065614190061" name="Changes" comment="create the template and visitor design pattern">
+    <list default="true" id="570408a6-1534-422e-93c1-065614190061" name="Changes" comment="reformat the code base using intellij U reformat feature">
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/intepreter/AlternationExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/intepreter/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/intepreter/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/intepreter/LiteralExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/intepreter/RepitetionExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/intepreter/SequenceExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralPatterns/proxy/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralPatterns/proxy/EBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralPatterns/proxy/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralPatterns/proxy/ProxyEBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralPatterns/proxy/RealEBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Adapter/AdapterText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Adapter/AdapterText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Adapter/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Adapter/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Adapter/Graphics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Adapter/Graphics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Adapter/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Adapter/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Adapter/TextDrawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Adapter/TextDrawer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bridge/AWindowImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Bridge/AWindowImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bridge/BWindowImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Bridge/BWindowImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bridge/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Bridge/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bridge/IconWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Bridge/IconWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bridge/TransientWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Bridge/TransientWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bridge/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Bridge/Window.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bridge/WindowImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Bridge/WindowImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Composite/safety/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Composite/safety/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Composite/safety/Graphic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Composite/safety/Graphic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Composite/safety/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Composite/safety/Image.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Composite/safety/Oval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Composite/safety/Oval.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Composite/safety/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Composite/safety/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Composite/transparent/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Composite/transparent/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Composite/transparent/Graphic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Composite/transparent/Graphic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Composite/transparent/Oval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Composite/transparent/Oval.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Composite/transparent/Picture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Composite/transparent/Picture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Composite/transparent/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Composite/transparent/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Composite/transparent/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Composite/transparent/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Decorator/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Decorator/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Decorator/Drink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Decorator/Drink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Decorator/DrinkDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Decorator/DrinkDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Decorator/Honey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Decorator/Honey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Decorator/Lime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Decorator/Lime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Decorator/Rum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Decorator/Rum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Decorator/Spices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Decorator/Spices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Decorator/Whiskey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Decorator/Whiskey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Decorator/Wine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralPatterns/Decorator/Wine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,35 +45,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/OneDrive-University/OneDrive - University of Moratuwa/University Academics/Semester 2/Program Construction/Projects/JavaIO",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/OneDrive-University/OneDrive - University of Moratuwa/University Academics/Semester 2/Program Construction/Projects/JavaIO&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.General&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\Workspace\DesignPatterns\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.behavioralPatterns.visitor.Demo">
-    <configuration name="behavioralPatterns.observer.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioralPatterns.observer.Demo" />
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structuralPatterns.proxy.Demo" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="behavioralPatterns.observer.*" />
+          <option name="PATTERN" value="structuralPatterns.proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="behavioralPatterns.state.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioralPatterns.state.Demo" />
+    <configuration name="behavioralPatterns.observer.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioralPatterns.observer.Demo" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="behavioralPatterns.state.*" />
+          <option name="PATTERN" value="behavioralPatterns.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.behavioralPatterns.visitor.Demo" />
         <item itemvalue="Application.behavioralPatterns.template.Demo" />
         <item itemvalue="Application.behavioralPatterns.strategy.Demo" />
         <item itemvalue="Application.behavioralPatterns.observer.Demo" />
-        <item itemvalue="Application.behavioralPatterns.state.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +169,8 @@
       <workItem from="1688407477996" duration="86000" />
       <workItem from="1688407588110" duration="39000" />
       <workItem from="1688407648383" duration="770000" />
-      <workItem from="1688408454211" duration="3000000" />
+      <workItem from="1688408454211" duration="3921000" />
+      <workItem from="1688442245002" duration="1797000" />
     </task>
     <task id="LOCAL-00001" summary="Create a package for creational pattern designs and move all of the creational patterns to the new package">
       <created>1688210071543</created>
@@ -228,7 +207,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688412549828</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="reformat the code base using intellij U reformat feature">
+      <created>1688412960305</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688412960305</updated>
+    </task>
+    <task id="LOCAL-00007" summary="reformat the code base using intellij U reformat feature">
+      <created>1688412981787</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688412981787</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +233,8 @@
     <MESSAGE value="create the memento, mediator, and the command design patterns" />
     <MESSAGE value="create state and strategy design patterns" />
     <MESSAGE value="create the template and visitor design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="create the template and visitor design pattern" />
+    <MESSAGE value="reformat the code base using intellij U reformat feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="reformat the code base using intellij U reformat feature" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
